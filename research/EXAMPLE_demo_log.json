@@ -1,0 +1,13 @@
+{
+  "schema_version": 1,
+  "app_version": "1.0.0",
+  "disclosure": "Синтетический пример формата. Не реальная сессия и не результат исследования.",
+  "session": {"id": "example-demo-only", "type": "demo", "startedAt": 0},
+  "events": [
+    {"session_id":"example-demo-only","session_type":"demo","event":"task_start","timestamp":"2026-11-08T20:00:00.000Z","elapsed_ms":0,"data":{}},
+    {"session_id":"example-demo-only","session_type":"demo","event":"request_submit","timestamp":"2026-11-08T20:00:20.000Z","elapsed_ms":20000,"data":{"budget":3000,"interest_count":2}},
+    {"session_id":"example-demo-only","session_type":"demo","event":"item_open","timestamp":"2026-11-08T20:00:30.000Z","elapsed_ms":30000,"data":{"item_id":"coffeeset"}},
+    {"session_id":"example-demo-only","session_type":"demo","event":"wishlist_add","timestamp":"2026-11-08T20:00:35.000Z","elapsed_ms":35000,"data":{"item_id":"coffeeset","count":1}},
+    {"session_id":"example-demo-only","session_type":"demo","event":"wishlist_open","timestamp":"2026-11-08T20:00:40.000Z","elapsed_ms":40000,"data":{"count":1}}
+  ]
+}
